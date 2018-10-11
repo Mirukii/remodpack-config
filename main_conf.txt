@@ -1,0 +1,664 @@
+[soloviyko_modpack_Config]
+Version=1.2.0
+
+[for_WOT]
+Version=1.2.0
+
+[Installer]
+Version=1.6
+Date=10.11.2018
+URL=https://wgmods.net/modmakers/1893/
+ForumLink=http://forum.worldoftanks.eu/index.php?/topic/421524-remodelling-reposts-public-storage/
+
+[modpack]
+Description=SOLO
+Version=1
+Date=10.11.2018
+SizeFull=~220MB
+SizeMin=~12 MB
+IsAllowedToDisableBackups=1
+
+[IsAllowedDownloads]
+Status=1
+english.Message=Preparing mods
+german.Message=Preparing mods
+russian.Message=Preparing mods
+ukrainian.Message=Preparing mods
+
+[soloviyko_modpack_info]
+Line1=
+Line2=Created with Inno Script Studio v.2.2.2.3 {20151020-065430} {https://www.kymoto.org/products/inno-script-studio} and compiled by Inno Setup Compiler v.5.5.8 {u} {http://www.jrsoftware.org/isinfo.php};
+Line3=Installer uses DwinsHs {Downloader for Inno Setup} Version: 1.1.12 {For Inno Setup 5.x} {http://www.han-soft.com/dwinshs.php};
+Line4=Installer uses 7-zip archive unpacker .7z Any / x86 / x64 LZMA SDK: {C, C++, C#, Java} {7zdec.exe} {http://www.7-zip.org/download.html};
+Line5=
+Line6=
+Line7=
+Line8=
+Line9=
+Line10=
+Line11=
+Line12=
+Line13=
+Line14=
+Line15=
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Components begin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[APP]
+URL=https://tankvault.net/modpack-config/Miruku_APP.wotmod
+Filename=Miruku_APP.wotmod
+
+[UPP]
+english.Description=Update Notifier!
+german.Description=Update Notifier!
+russian.Description=Update Notifier!
+ukrainian.Description=Update Notifier!
+URL=https://tankvault.net/modpack-config/Miruku_UP.wotmod
+Filename=Miruku_UP.wotmod
+ModDesc=In Game Notification
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Nations begin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[CHINA]
+english.Description=China
+german.Description=China
+russian.Description=\u041a\u0438\u0442\u0430\u0439
+ukrainian.Description=\u041a\u0438\u0442\u0430\u0439
+Enabled=1
+Fixed=0
+
+[CHINA\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[CHINA\MT\1]
+english.Description=121
+german.Description=121
+russian.Description=121
+ukrainian.Description=121
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_121_Remodel.7z
+Filename=1.2.0_Mirukii_121_Remodel.7z
+Img=121.bmp
+ModDesc=Complete overhaul of the Chinese 121 medium tank.
+Enabled=1
+Fixed=0
+
+[CHINA\MT\2]
+english.Description=Type 59
+german.Description=Type 59
+russian.Description=Type 59
+ukrainian.Description=Type 59
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Type-59_Remodel.7z
+Filename=1.2.0_Mirukii_Type-59_Remodel.7z
+Img=Type59.bmp
+ModDesc=Complete remodel of the Type 59 adding in new clutter, mantlet canvas, animated light etc.
+Enabled=1
+Fixed=0
+
+[CHINA\MT\3]
+english.Description=T-34-3
+german.Description=T-34-3
+russian.Description=T-34-3
+ukrainian.Description=T-34-3
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-34-3_Remodel.7z
+Filename=1.2.0_Mirukii_T-34-3_Remodel.7z
+Img=T_34_3.bmp
+ModDesc=Remodeled T-34-3 with added clutter and alternative gun model including animated light.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[FRANCE]
+english.Description=France
+german.Description=Frankreich
+russian.Description=\u0424\u0440\u0430\u043D\u0446\u0438\u044F
+ukrainian.Description=\u0424\u0440\u0430\u043D\u0446\u0438\u044F
+Enabled=1
+Fixed=0
+
+[FRANCE\LT]
+english.Description=Light Tanks
+german.Description=Leichte Panzer
+russian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[FRANCE\LT\1]
+english.Description=AMX 13 90
+german.Description=AMX 13 90
+russian.Description=AMX 13 90
+ukrainian.Description=AMX 13 90
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_AMX1390_Remodel.7z
+Filename=1.2.0_Mirukii_AMX1390_Remodel.7z
+Img=AMX1390.bmp
+ModDesc=Remodel for the AMX 13 90 adding a gun sleeve and canvas
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[GERMANY]
+english.Description=Germany
+german.Description=Deutschland
+russian.Description=\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f
+ukrainian.Description=\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f
+Enabled=1
+Fixed=0
+
+[GERMANY\LT]
+english.Description=Light Tanks
+german.Description=Leichte Panzer
+russian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[GERMANY\LT\1]
+english.Description=Sd.Kfz. 140/1 (Pz. I C)
+german.Description=Sd.Kfz. 140/1 (Pz. I C)
+russian.Description=Sd.Kfz. 140/1 (Pz. I C)
+ukrainian.Description=Sd.Kfz. 140/1 (Pz. I C)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_SdKfz140-1_Remodel.7z
+Filename=1.2.0_Mirukii_SdKfz140-1_Remodel.7z
+Img=SdKfz1401.bmp
+ModDesc=Sd.Kfz. 140/1 model replacement for the Pz. I C
+Enabled=1
+Fixed=0
+
+[GERMANY\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\1]
+english.Description=E 50
+german.Description=E 50
+russian.Description=E 50
+ukrainian.Description=E 50
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_E-50_Remodel.7z
+Filename=1.2.0_Mirukii_E-50_Remodel.7z
+Img=E50.bmp
+ModDesc=Model for E 50 adding sideskirts, exhaust mufflers, AAMG, new gun etc.
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\2]
+english.Description=E 50 Ausf. M
+german.Description=E 50 Ausf. M
+russian.Description=E 50 Ausf. M
+ukrainian.Description=E 50 Ausf. M
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_E-50M_Remodel.7z
+Filename=1.2.0_Mirukii_E-50M_Remodel.7z
+Img=E50AusfM.bmp
+ModDesc=Model for E 50 Ausf M adding sideskirts, exhaust mufflers, AAMG, new gun etc
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\3]
+english.Description=Laupen 16t (VK 30.01 (P))
+german.Description=Laupen 16t (VK 30.01 (P))
+russian.Description=Laupen 16t (VK 30.01 (P))
+ukrainian.Description=Laupen 16t (VK 30.01 (P))
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Laupen-16t_Remodel.7z
+Filename=1.2.0_Mirukii_Laupen-16t_Remodel.7z
+Img=Laupen16t.bmp
+ModDesc=Swiss light/medium paper project based off the G-13 tank destroyer chassis armed with a 9 cm L/40 cannon.
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\4]
+english.Description=Leopard 1A1A1 (Leopard 1)
+german.Description=Leopard 1A1A1 (Leopard 1)
+russian.Description=Leopard 1A1A1 (Leopard 1)
+ukrainian.Description=Leopard 1A1A1 (Leopard 1)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Leopard1A1A1_Remodel.7z
+Filename=1.2.0_Mirukii_Leopard1A1A1_Remodel.7z
+Img=Leopard1A1A1.bmp
+ModDesc=Model for Leopard 1 visually to the A1A1 specification
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\5]
+english.Description=Prototyp B1 (Leopard PT A)
+german.Description=Prototyp B1 (Leopard PT A)
+russian.Description=Prototyp B1 (Leopard PT A)
+ukrainian.Description=Prototyp B1 (Leopard PT A)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Prototyp_B1_Remodel_lv19QYy.7z
+Filename=1.2.0_Mirukii_Prototyp_B1_Remodel_lv19QYy.7z
+Img=PrototypB1.bmp
+ModDesc=Arbeitsgruppe A - Rheinstahl Hanomag B1 prototype of the 1956 Leopard design project.
+Enabled=1
+Fixed=0
+
+[GERMANY\MT\6]
+english.Description=T-54AM (T-55A)
+german.Description=T-54AM (T-55A)
+russian.Description=T-54AM (T-55A)
+ukrainian.Description=T-54AM (T-55A)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-54AM_Remodel_T-55A.7z
+Filename=1.2.0_Mirukii_T-54AM_Remodel_T-55A.7z
+Img=T54AM.bmp
+ModDesc=T-54AM remodel for the German T-55A campaign reward tank.
+Enabled=1
+Fixed=0
+
+[GERMANY\TD]
+english.Description=Tank Destroyers
+german.Description=Jagdpanzer
+russian.Description=\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0430\u043d\u043a\u043e\u0432\u044b\u0435 \u0421\u0410\u0423
+ukrainian.Description=\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0430\u043d\u043a\u043e\u0432\u044b\u0435 \u0421\u0410\u0423
+Enabled=1
+Fixed=0
+
+[GERMANY\TD\1]
+english.Description=G13
+german.Description=G13
+russian.Description=G13
+ukrainian.Description=G13
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_G13_Remodel.7z
+Filename=1.2.0_Mirukii_G13_Remodel.7z
+Img=G13.bmp
+ModDesc=Swiss postwar version of the Jagdpanzer 38t Tank Destroyer
+Enabled=1
+Fixed=0
+
+[GERMANY\TD\2]
+english.Description=Skorpion G
+german.Description=Skorpion G
+russian.Description=Skorpion G
+ukrainian.Description=Skorpion G
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_RhmSkorpionG_Remodel.7z
+Filename=1.2.0_Mirukii_RhmSkorpionG_Remodel.7z
+Img=SkorpionG.bmp
+ModDesc=Black reskin of the Skorpion G with a slight hull model modification.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[JAPAN]
+english.Description=Japan
+german.Description=Japan
+russian.Description=\u042F\u043F\u043E\u043D\u0438\u044F
+ukrainian.Description=\u042F\u043F\u043E\u043D\u0438\u044F
+Enabled=1
+Fixed=0
+
+[JAPAN\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[JAPAN\MT\1]
+english.Description=Type 74 (STB-1)
+german.Description=Type 74 (STB-1)
+russian.Description=Type 74 (STB-1)
+ukrainian.Description=Type 74 (STB-1)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Type_74_Remodel.7z
+Filename=1.2.0_Mirukii_Type_74_Remodel.7z
+Img=Type74.bmp
+ModDesc=Type 74 remodel for the STB-1.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[SWEDEN]
+english.Description=Sweden
+german.Description=Schweden
+russian.Description=\u0428\u0432\u0435\u0446\u0438\u044F
+ukrainian.Description=\u0428\u0432\u0435\u0446\u0438\u044F
+Enabled=1
+Fixed=0
+
+[SWEDEN\TD]
+english.Description=Tank Destroyers
+german.Description=Jagdpanzer
+russian.Description=\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0430\u043d\u043a\u043e\u0432\u044b\u0435 \u0421\u0410\u0423
+ukrainian.Description=\u041f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0430\u043d\u043a\u043e\u0432\u044b\u0435 \u0421\u0410\u0423
+Enabled=1
+Fixed=0
+
+[SWEDEN\TD\1]
+english.Description=Strv S1
+german.Description=Strv S1
+russian.Description=Strv S1
+ukrainian.Description=Strv S1
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Strv-S1_Remodel.7z
+Filename=1.2.0_Mirukii_Strv-S1_Remodel.7z
+Img=StrvS1.bmp
+ModDesc=Visual upgrade of the Strv S1 with a gun model change and additions to the hull model
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[UK]
+english.Description=United Kingdom
+german.Description=Gro\u00dfbritannien
+russian.Description=\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f
+ukrainian.Description=\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f
+Enabled=1
+Fixed=0
+
+[UK\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[UK\MT\1]
+english.Description=FV4202
+german.Description=FV4202
+russian.Description=FV4202
+ukrainian.Description=FV4202
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_FV4202_Remodel.7z
+Filename=1.2.0_Mirukii_FV4202_Remodel.7z
+Img=FV4202.bmp
+ModDesc=Improved FV4202 model with gun sleeve, light, turret basket and removed side skirts.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[USA]
+english.Description=United States
+german.Description=Vereinigte Staaten
+russian.Description=\u0421\u0428\u0410
+ukrainian.Description=\u0421\u0428\u0410
+Enabled=1
+Fixed=0
+
+[USA\LT]
+english.Description=Light Tanks
+german.Description=Leichte Panzer
+russian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[USA\LT\1]
+english.Description=M551 Sheridan (XM551 Sheridan)
+german.Description=M551 Sheridan (XM551 Sheridan)
+russian.Description=M551 Sheridan (XM551 Sheridan)
+ukrainian.Description=M551 Sheridan (XM551 Sheridan)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_M551_Sheridan_Remodel.7z
+Filename=1.2.0_Mirukii_M551_Sheridan_Remodel.7z
+Img=M551.bmp
+ModDesc=Replaces the XM551 Sheridan prototype model with the M551 Sheridan production model.
+Enabled=1
+Fixed=0
+
+[USA\LT\2]
+english.Description=T49
+german.Description=T49
+russian.Description=T49
+ukrainian.Description=T49
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T49_Remodel.7z
+Filename=1.2.0_Mirukii_T49_Remodel.7z
+Img=T49.bmp
+ModDesc=Improved version of the T49 light tank.
+Enabled=1
+Fixed=0
+
+
+[USA\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[USA\MT\1]
+english.Description=M46 Tiger (M46 Patton KR)
+german.Description=M46 Tiger (M46 Patton KR)
+russian.Description=M46 Tiger (M46 Patton KR)
+ukrainian.Description=M46 Tiger (M46 Patton KR)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_M46PattonKR_Remodel.7z
+Filename=1.2.0_Mirukii_M46PattonKR_Remodel.7z
+Img=M46Tiger.bmp
+ModDesc=Improved M46 Patton model for the tier 8 premium M46 Patton KR tank
+Enabled=1
+Fixed=0
+
+[USA\MT\2]
+english.Description=M48A5
+german.Description=M48A5
+russian.Description=M48A5
+ukrainian.Description=M48A5
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_M48A5_Remodel.7z
+Filename=1.2.0_Mirukii_M48A5_Remodel.7z
+Img=M48A5.bmp
+ModDesc=Yankee doodle remodel with MORE guns (triple MGs, M16 and M72 LAWs), a gun mantlet canvas, cable for the AN/VSS-1 searchlight and one of the roadwheels removed from the turret model.
+Enabled=1
+Fixed=0
+
+[USA\MT\3]
+english.Description=M60A1 (M60)
+german.Description=M60A1 (M60)
+russian.Description=M60A1 (M60)
+ukrainian.Description=M60A1 (M60)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_M60A1_Remodel_M60.7z
+Filename=1.2.0_Mirukii_M60A1_Remodel_M60.7z
+Img=M60A1.bmp
+ModDesc=M60A1 remodel for the M60.
+Enabled=1
+Fixed=0
+
+[USA\MT\4]
+english.Description=T95E2
+german.Description=T95E2
+russian.Description=T95E2
+ukrainian.Description=T95E2
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T95E2_Remodel.7z
+Filename=1.2.0_Mirukii_T95E2_Remodel.7z
+Img=T95E2.bmp
+ModDesc=Remodel with a different gun, additonal MG, IR searchlight and mantlet cover.
+Enabled=1
+Fixed=0
+
+[USA\HT]
+english.Description=Heavy Tanks
+german.Description=Schwere Panzer
+russian.Description=\u0422\u044F\u0436\u0435\u043B\u044B\u0435 \u0442\u0430\u043D\u043A\u0438
+ukrainian.Description=\u0422\u044F\u0436\u0435\u043B\u044B\u0435 \u0442\u0430\u043D\u043A\u0438
+Enabled=1
+Fixed=0
+
+[USA\HT\1]
+english.Description=T110E5
+german.Description=T110E5
+russian.Description=T110E5
+ukrainian.Description=T110E5
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T110E5_Remodel.7z
+Filename=1.2.0_Mirukii_T110E5_Remodel.7z
+Img=T110E5.bmp
+ModDesc=Rework of the T110E5 with a heat shield and cover for the gun and AN/VSS-1 searchlight. Modified commander’s cupola and engine compartment.
+Enabled=1
+Fixed=0
+
+[USA\HT\2]
+english.Description=T34 Heavy
+german.Description=T34 Heavy
+russian.Description=T34 Heavy
+ukrainian.Description=T34 Heavy
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T34-Heavy_Remodel.7z
+Filename=1.2.0_Mirukii_T34-Heavy_Remodel.7z
+Img=T34hvy.bmp
+ModDesc=Improved T34 Heavy model with custom gun cover, added clutter and roof mounted machine gun.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[USSR]
+english.Description=Soviet Union
+german.Description=Sowjetunion
+russian.Description=\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0438\u0439 \u0421\u043E\u044E\u0437
+ukrainian.Description=\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0438\u0439 \u0421\u043E\u044E\u0437
+Enabled=1
+Fixed=0
+
+[USSR\LT]
+english.Description=Light Tanks
+german.Description=Leichte Panzer
+russian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u041b\u0451\u0433\u043a\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[USSR\LT\1]
+english.Description=BT-42 (BT-7 Art)
+german.Description=BT-42 (BT-7 Art)
+russian.Description=BT-42 (BT-7 Art)
+ukrainian.Description=BT-42 (BT-7 Art)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_BT-42_Remodel.7z
+Filename=1.2.0_Mirukii_BT-42_Remodel.7z
+Img=BT42.bmp
+ModDesc=Remodel of the Finnish BT-42 for the BT-7 Artillery.
+Enabled=1
+Fixed=0
+
+[USSR\MT]
+english.Description=Medium Tanks
+german.Description=Mittlere Panzer
+russian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+ukrainian.Description=\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0442\u0430\u043d\u043a\u0438
+Enabled=1
+Fixed=0
+
+[USSR\MT\1]
+english.Description=T-34-85E (Rudy)
+german.Description=T-34-85E (Rudy)
+russian.Description=T-34-85E (Rudy)
+ukrainian.Description=T-34-85E (Rudy)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T3485E_Remodel.7z
+Filename=1.2.0_Mirukii_T3485E_Remodel.7z
+Img=T3485E.bmp
+ModDesc=T-34-85E remodel with bedspring armor for the Rudy
+Enabled=1
+Fixed=0
+
+[USSR\MT\2]
+english.Description=T-54AM (T-54)
+german.Description=T-54AM (T-54)
+russian.Description=T-54AM (T-54)
+ukrainian.Description=T-54AM (T-54)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-54AM_Remodel_T-54.7z
+Filename=1.2.0_Mirukii_T-54AM_Remodel_T-54.7z
+Img=T54AMussr.bmp
+ModDesc=T-54AM remodel for the Russian T-54 medium tank.
+Enabled=1
+Fixed=0
+
+[USSR\MT\3]
+english.Description=T-62A
+german.Description=T-62A
+russian.Description=T-62A
+ukrainian.Description=T-62A
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-62A_Remodel.7z
+Filename=1.2.0_Mirukii_T-62A_Remodel.7z
+Img=T62A.bmp
+ModDesc=Battle-proven version of the T-62A with ERA, searchlight animation, mantlet canvas and clutter like helmets, bags etc.
+Enabled=1
+Fixed=0
+
+[USSR\MT\4]
+english.Description=T-64A (Object 430)
+german.Description=T-64A (Object 430)
+russian.Description=T-64A (\u041e\u0431\u044a\u0435\u043a\u0442 430)
+ukrainian.Description=T-64A (\u041e\u0431\u044a\u0435\u043a\u0442 430)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-64A_Remodel.7z
+Filename=1.2.0_Mirukii_T-64A_Remodel.7z
+Img=T64A.bmp
+ModDesc=T-64A replacement model for the tier 9 Object 430
+Enabled=1
+Fixed=0
+
+[USSR\MT\5]
+english.Description=T-90A (Object 140)
+german.Description=T-90A (Object 140)
+russian.Description=T-90A (\u041e\u0431\u044a\u0435\u043a\u0442 140)
+ukrainian.Description=T-90A (\u041e\u0431\u044a\u0435\u043a\u0442 140)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_T-90A_Remodel.7z
+Filename=1.2.0_Mirukii_T-90A_Remodel.7z
+Img=T90A.bmp
+ModDesc=T-90A model for use on the Object 140.
+Enabled=1
+Fixed=0
+
+[USSR\HT]
+english.Description=Heavy Tanks
+german.Description=Schwere Panzer
+russian.Description=\u0422\u044F\u0436\u0435\u043B\u044B\u0435 \u0442\u0430\u043D\u043A\u0438
+ukrainian.Description=\u0422\u044F\u0436\u0435\u043B\u044B\u0435 \u0442\u0430\u043D\u043A\u0438
+Enabled=1
+Fixed=0
+
+[USSR\HT\1]
+english.Description=KV-1 KwK40 (KV-220-2)
+german.Description=KV-1 KwK40 (KV-220-2)
+russian.Description=KV-1 KwK40 (KV-220-2)
+ukrainian.Description=KV-1 KwK40 (KV-220-2)
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_KV-1KwK40_Remodel.7z
+Filename=1.2.0_Mirukii_KV-1KwK40_Remodel.7z
+Img=KV1KwK40.bmp
+ModDesc=Model replacement for the KV-220-2 with the captured tank KV-1 KwK 40 model.
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Nations end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Misc begin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[MISC]
+english.Description=Miscellaneous
+german.Description=Sonstige
+russian.Description=\u0420\u0430\u0437\u043D\u043E\u0435
+ukrainian.Description=\u0420\u0430\u0437\u043D\u043E\u0435
+Enabled=1
+Fixed=0
+
+[MISC\1]
+english.Description=Contour Icons
+german.Description=Contour Icons
+russian.Description=\u041a\u043e\u043d\u0442\u0443\u0440\u043d\u044b\u0435 \u0438\u043a\u043e\u043d\u043a\u0438
+ukrainian.Description=\u041a\u043e\u043d\u0442\u0443\u0440\u043d\u044b\u0435 \u0438\u043a\u043e\u043a\u043a\u0438
+URL=https://modp.wgcdn.co/media/mod_files/1.2.0_Mirukii_Contour_Icons.7z
+Filename=1.2.0_Mirukii_Contour_Icons.7z
+Img=ContourIcons.bmp
+Enabled=1
+Fixed=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Misc end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Components end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
